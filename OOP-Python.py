@@ -21,11 +21,11 @@ if __name__ == "__main__": #this is a way to run the code in this file only if i
     print(d) #prints the object
     print(type(d)) #prints the type of the object
     print(d.__class__) #prints the class of the object  (same as type(d))
-    print(d.__class__.__name__) #prints the name of the class of the object
+    print(d.__class__.__ne__) #prints the name of the class of the object
     print(d.__dict__) #prints the dictionary of the object
     print(d.__doc__) #prints the docstring of the object
     print(d.__module__) #prints the module of the object
     print(d.__class__.__module__) #prints the module of the class of the object
-    print(d.__class__.__module__.__name__) #prints the name of the module of the class of the object. This is the same as __module__
-    print(d.__class__.__module__.__dict__) #prints the dictionary of the module of the class of the object. This is the same as globals()
+    print(d.__class__.__module__.__ne__) #prints the name of the module of the class of the object
+    print(d.__class__.__module__.__dir__) #prints the directory of the module of the class of the object
     
