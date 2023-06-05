@@ -54,3 +54,7 @@ print(thistuple)
 #Print the second item in the tuple:
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[1])
+
+#Print the last item of the tuple:
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
